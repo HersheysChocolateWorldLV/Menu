@@ -26,27 +26,35 @@ body {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    
+    
         
   }
   
   /* Links inside the navbar */
   .navbar a {
     text-align: center;
-    color: #b3b3b3;
-    padding: 30px 30px; 
+    background-color: rgb(189, 189, 189);
+    color: black;
+    margin-bottom: 7px;
+    margin-top: 1px;
+    padding: 20px 20px; 
     text-decoration: none;
     font-size: 28px;
+    border-radius: 15px;
+    box-shadow: -6px 4px 5px orange;
+    border: 1px solid orange;
     
  }
   
   /* Change background on mouse-over */
   .navbar a:hover {
-    background: #ddd;
-    color: black;
+    background: purple;
+    color: orange;
   }
 
   .navbar a:active {
-      background: green;
+      background: purple;
   }
 
 /* ----------------------- */
@@ -54,7 +62,7 @@ body {
 div.polaroid {
     width: 95%;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 8px 4px orange, 0 6px 20px 0 darkgoldenrod;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -68,6 +76,14 @@ div.polaroid {
     text-align: left;
     padding: 5px 0px;
     font-size: xx-large;  
+    margin-left: 20px;
+    
+  }
+
+  div.container2 {
+    text-align: left;
+    padding: 5px 0px;
+    font-size: x-large;  
     margin-left: 20px;
   }
 
@@ -90,21 +106,28 @@ div.polaroid {
 
   .navbarbottom a {
     text-align: center;
-    color: #818181;
-    padding: 30px 30px;   
+    background-color: rgb(189, 189, 189);
+    color: black;
+    margin-bottom: 7px;
+    margin-top: 1px;
+    padding: 20px 20px;   
     text-decoration: none;
     font-size: 28px;
+    border-radius: 15px;
+    box-shadow: -6px 4px 5px orange;
+    border: 1px solid orange;
+    
   }
   
   /* Change background on mouse-over */
 
   .navbarbottom a:hover {
-    background: #ddd;
-    color: black;
+    background: purple;
+    color: orange;
   }
 
   .navbarbottom a:active {
-      background: green;
+      background: purple;
   }
 
   #right {
