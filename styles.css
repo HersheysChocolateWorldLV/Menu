@@ -42,19 +42,23 @@ body {
     text-decoration: none;
     font-size: 28px;
     border-radius: 15px;
-    box-shadow: -6px 4px 5px orange;
-    border: 1px solid orange;
+    box-shadow: -4px 4px 2px slategray;
+    border: 1px solid darkslategray;
     
  }
   
   /* Change background on mouse-over */
   .navbar a:hover {
-    background: purple;
-    color: orange;
+    background: green;
+    color: white;
+    border: 1px solid lightgray;
   }
 
   .navbar a:active {
-      background: purple;
+      background: green;
+      color: white;
+      border: 1px solid lightgray;
+      
   }
 
 /* ----------------------- */
@@ -62,7 +66,7 @@ body {
 div.polaroid {
     width: 95%;
     background-color: white;
-    box-shadow: 0 8px 8px 4px orange, 0 6px 20px 0 darkgoldenrod;
+    box-shadow: 0 8px 8px 4px rgb(0, 0, 255, .5), 0 6px 20px 0 rgb(0, 0, 139, .75);
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -114,20 +118,23 @@ div.polaroid {
     text-decoration: none;
     font-size: 28px;
     border-radius: 15px;
-    box-shadow: -6px 4px 5px orange;
-    border: 1px solid orange;
+    box-shadow: -4px 4px 2px slategray;
+    border: 1px solid darkslategray;
     
   }
   
   /* Change background on mouse-over */
 
   .navbarbottom a:hover {
-    background: purple;
-    color: orange;
+    background: green;
+    color: white;
+    border: 1px solid lightgray;
   }
 
   .navbarbottom a:active {
-      background: purple;
+    background: green;
+    color: white;
+    border: 1px solid lightgray;
   }
 
   #right {
